@@ -1,0 +1,23 @@
+const books = [
+  {
+    name: "Great",
+    discontinued: true,
+    genre: "Novel",
+    rating: 3.1,
+    count: 2,
+    start: "198301",
+    end: "198512"
+  },
+    {
+    name: "Laws",
+    discontinued: true,
+    genre: "Novel",
+    rating: 4.8,
+    count: 3,
+    start: "198401",
+    end: "198511"
+  }
+]
+
+filtered.sort((a, b) => b.rating - a.rating);
+// 'sort()' function - in this example, it will sort the array nameed 'filtered' in descending order based on rating of each book
